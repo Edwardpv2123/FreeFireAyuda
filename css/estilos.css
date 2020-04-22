@@ -7,9 +7,10 @@
 }
 
 body {
-    background: url(../img/free2.jpg);
+    background: url(../img/freemovil.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     font-family: Roboto;
 }
 
@@ -120,4 +121,13 @@ body {
 
 .contenedor-form .formulario:nth-child(2) {
     display: block;
+}
+@media screen and (min-width:780px) {
+    body {
+    background: url(../img/free2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Roboto;
+    }
 }
