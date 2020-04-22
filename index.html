@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login |CódigoMasters|</title>
+    <title>Login |FreeFire Trucos</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -13,23 +13,23 @@
         
         <div class="formulario">
             <h2>Iniciar Sesión</h2>
-            <form action="#">
-                <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Contraseña" required>
+            <form method="post" action="#">
+                <input type="email" placeholder="Correo" name="correo" required>
+                <input type="password" placeholder="Contraseña" name="clave" required>
                 <input type="submit" value="Iniciar Sesión">
             </form>
         </div>
         
         <div class="formulario">
             <h2>Crea tu Cuenta</h2>
-            <form action="#">
-                <input type="text" placeholder="Usuario" required>
+            <form method="post" action="#">
+                <input type="email" id="correo" name="correo" placeholder="Correo Electronico" class="input-100" required>
                 
-                <input type="password" placeholder="Contraseña" required>
+                <input type="password" id="pass1" name="pass1" placeholder="Contraseña" class="input-48" required>
                 
-                <input type="email" placeholder="Correo Electronico" required>
+                <input type="password" id="pass2" placeholder="Confirmar Contraseña" required>
                 
-                <input type="text" placeholder="Teléfono" required>
+                <span id="error2"></span>
                 
                 <input type="submit" value="Registrarse">
             </form>
